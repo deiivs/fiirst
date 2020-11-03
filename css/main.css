@@ -1,0 +1,172 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+html, body{
+    box-sizing: border-box;
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+}
+.header{
+    background-image: url(images/header-foto.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    position: absolute;
+}
+
+.navi ul li{
+    display: inline-block;
+    margin-right: 40px;  
+}
+.navi ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+}
+.navi ul li a:hover{
+       border-bottom: 1px solid #A1A1A1;
+       opacity: 0.5;
+}
+.navi{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 405px;
+    padding-top: 40px;
+}
+.content{
+    width: 829px;
+    height: 246px;
+    
+}
+.header .content p,h1,a{
+    color: #FFFFFF;
+    }
+.header .content h1{
+    text-align: center;
+    font-size: 48px;
+}  
+.header .content p,a{
+    font-size: 16px;
+}
+
+.header .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; 
+    margin-top: 319px;  
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background: #4985FF;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    padding-top: 13px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+.btn:hover{
+    opacity: 0.4;
+}
+.conteiner{
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services{
+    display: flex;
+    position: absolute;
+    margin-top: 1010px;
+    width: 1113px;
+    height: 488px;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.services .zagolovok{
+    width: 739px;
+    height: 88px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #323232;    
+}
+.servis-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servis1 {
+    display: flex;
+    justify-content: space-between;
+}
+.servis1 .img-foto1 img{
+    width: 110px;
+    height: 110px;
+    padding-top: 0px;
+    margin-top: 70px;
+    float: left;    
+}
+.servis1 .zagolovok{
+    width: 226px;
+    height: 23px;
+    padding-left: 127px;
+}
+.servis1 .tekst2{
+    width: 122px;
+    height: 28px;
+    
+}
+.services .tekst{
+    width: 730px;
+    height: 41px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+   
+}
+.servis1 .sait h3{
+    margin-top: 116px;
+    margin-left: 18px;
+}
+.servis1 .sait p{
+    text-align: left;
+}
+.services a{
+    margin-top: 443px;
+}
+.conteiner1 {
+position: absolute;
+width: 1920px;
+height: 797px;
+left: 0px;
+top: 1603px;
+background: #F6F6F8;
+}
+.retangle{
+    display: flex;
+    justify-content: space-between;
+}
+.stan{
+    width: 489px;
+    height: 295px;
+    margin-left: 405px;
+}
+.foto3{
+    width: 500px;
+    height: 400px;
+    margin-right: 405px;
+}
